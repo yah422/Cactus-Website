@@ -1,5 +1,24 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap') */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root{ 
+/* -------------- VARIABLE CSS ------------------ */
+    --header-height: 3.5rem;
+/* ---------------- COLORS --------------------- */
+
+ --first-color: hsl(93, 54%, 54%);
+ --first-color-alt: hsl(93, 50%, 48%);
+ --first-color-light: hsl(93, 58%, 66%);
+ --title-color: hsl(228, 8%, 98%);
+ --text-color: hsl(228, 8%, 70%);
+ --white-color: hsl(228, 8%, 98%);
+ --black-color: hsl(228, 6%, 4%);
+ --body-color: hsl(228, 6%, 8%);
+ --container-color: hsl(228, 6%, 12%);
+ --shadow-img: 0 0 48px hsla(93, 54%, 54%, .4);
+ --gradient-card: linear-gradient(180deg,
+                               hsla(93, 8%, 8%),
+                               hsla(93, 40%, 30%));
+}
 /* ------------------- HEADER ------------------- */
 .header {
     position: fixed;
