@@ -214,7 +214,19 @@
 }
 
 /* Add blur header */
+.blur-header::after{
+    content: '';
+    position: absolute;
+    width: 1000%;
+    height: 100%;
+    background-color: hsla(228,24%,6%,.2);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    top: 0;
+    left: 0;
+    z-index: -1;
 
+}
 
 /* Active link */
 
@@ -346,8 +358,21 @@
 .new__card:hover .new__img{
     transform: translateY(-.5rem);
 }
-/*=============== SHOP ===============*/
 
+/*=============== SHOP ===============*/
+.shop__container{
+    padding-top: 6.5rem;
+    grid-template-columns: repeat(2,1fr);
+    gap: 6rem 1.5rem;
+}
+
+.shop__card{
+    position: relative;
+    background: var(--gradient-card);
+    padding: 5.75rem .75rem 1.25rem .75rem;
+    border: 2px solid var(--first-color-light);
+    border-radius: 1rem;
+}
 
 /*=============== CARE ===============*/
 
