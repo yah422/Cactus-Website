@@ -179,6 +179,8 @@
     
 }
 
+/*=============== HEADER & NAV ===============*/
+
 .nav__list {
     display: flex;
     flex-direction: column;
@@ -203,14 +205,13 @@
 
 }
 
-/*=============== HEADER & NAV ===============*/
-
-
-/* Navigation for mobile devices */
-
-
 /* Show menu */
 
+.show-menu {
+
+    right: 0;
+    
+}
 
 /* Add blur header */
 
